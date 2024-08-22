@@ -13,7 +13,25 @@
 		EFBF08452C74E22B0021E746 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBF08442C74E22B0021E746 /* Preview Assets.xcassets */; };
 		EFBF084C2C74E2C00021E746 /* StarWarsCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF084B2C74E2C00021E746 /* StarWarsCharacter.swift */; };
 		EFBF084E2C74E2ED0021E746 /* StarWarsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF084D2C74E2ED0021E746 /* StarWarsViewModel.swift */; };
+		EFBF08512C77A3020021E746 /* Starship.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF08502C77A3020021E746 /* Starship.swift */; };
+		EFBF08532C77A3220021E746 /* StarWarsDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF08522C77A3220021E746 /* StarWarsDetailViewModel.swift */; };
+		EFBF08562C77A36F0021E746 /* StarshipListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF08552C77A36F0021E746 /* StarshipListView.swift */; };
+		EFBF08582C77A38C0021E746 /* StarshipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF08572C77A38C0021E746 /* StarshipViewModel.swift */; };
+		EFBF085B2C77A4780021E746 /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF085A2C77A4780021E746 /* CharacterDetailView.swift */; };
+		EFBF085D2C77A5480021E746 /* MockAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF085C2C77A5480021E746 /* MockAPIService.swift */; };
+		EFBF08682C77A6E20021E746 /* StarWarsExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF08672C77A6E20021E746 /* StarWarsExplorerTests.swift */; };
+		EFBF086E2C77A6EB0021E746 /* StarWarsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF085F2C77A60A0021E746 /* StarWarsViewModelTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFBF08692C77A6E20021E746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFBF08322C74E2290021E746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFBF08392C74E2290021E746;
+			remoteInfo = StarWarsExplorer;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		EFBF083A2C74E2290021E746 /* StarWarsExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -23,10 +41,26 @@
 		EFBF08442C74E22B0021E746 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EFBF084B2C74E2C00021E746 /* StarWarsCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsCharacter.swift; sourceTree = "<group>"; };
 		EFBF084D2C74E2ED0021E746 /* StarWarsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsViewModel.swift; sourceTree = "<group>"; };
+		EFBF08502C77A3020021E746 /* Starship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starship.swift; sourceTree = "<group>"; };
+		EFBF08522C77A3220021E746 /* StarWarsDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsDetailViewModel.swift; sourceTree = "<group>"; };
+		EFBF08552C77A36F0021E746 /* StarshipListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipListView.swift; sourceTree = "<group>"; };
+		EFBF08572C77A38C0021E746 /* StarshipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipViewModel.swift; sourceTree = "<group>"; };
+		EFBF085A2C77A4780021E746 /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
+		EFBF085C2C77A5480021E746 /* MockAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIService.swift; sourceTree = "<group>"; };
+		EFBF085F2C77A60A0021E746 /* StarWarsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsViewModelTests.swift; sourceTree = "<group>"; };
+		EFBF08652C77A6E20021E746 /* StarWarsExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsExplorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBF08672C77A6E20021E746 /* StarWarsExplorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsExplorerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EFBF08372C74E2290021E746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBF08622C77A6E20021E746 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,7 +73,9 @@
 		EFBF08312C74E2290021E746 = {
 			isa = PBXGroup;
 			children = (
+				EFBF083D2C74E2290021E746 /* StarWarsExplorerApp.swift */,
 				EFBF083C2C74E2290021E746 /* StarWarsExplorer */,
+				EFBF08662C77A6E20021E746 /* StarWarsExplorerTests */,
 				EFBF083B2C74E2290021E746 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				EFBF083A2C74E2290021E746 /* StarWarsExplorer.app */,
+				EFBF08652C77A6E20021E746 /* StarWarsExplorerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,11 +92,10 @@
 		EFBF083C2C74E2290021E746 /* StarWarsExplorer */ = {
 			isa = PBXGroup;
 			children = (
-				EFBF083D2C74E2290021E746 /* StarWarsExplorerApp.swift */,
-				EFBF083F2C74E2290021E746 /* ContentView.swift */,
-				EFBF084B2C74E2C00021E746 /* StarWarsCharacter.swift */,
-				EFBF084D2C74E2ED0021E746 /* StarWarsViewModel.swift */,
-				EFBF08412C74E22B0021E746 /* Assets.xcassets */,
+				EFBF08542C77A35D0021E746 /* View */,
+				EFBF08592C77A3A80021E746 /* Model */,
+				EFBF084F2C77A2E00021E746 /* ViewModel */,
+				EFBF085E2C77A5B10021E746 /* MockServices */,
 				EFBF08432C74E22B0021E746 /* Preview Content */,
 			);
 			path = StarWarsExplorer;
@@ -68,9 +104,56 @@
 		EFBF08432C74E22B0021E746 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				EFBF08412C74E22B0021E746 /* Assets.xcassets */,
 				EFBF08442C74E22B0021E746 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFBF084F2C77A2E00021E746 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EFBF084D2C74E2ED0021E746 /* StarWarsViewModel.swift */,
+				EFBF08572C77A38C0021E746 /* StarshipViewModel.swift */,
+				EFBF08522C77A3220021E746 /* StarWarsDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EFBF08542C77A35D0021E746 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFBF083F2C74E2290021E746 /* ContentView.swift */,
+				EFBF085A2C77A4780021E746 /* CharacterDetailView.swift */,
+				EFBF08552C77A36F0021E746 /* StarshipListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EFBF08592C77A3A80021E746 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFBF084B2C74E2C00021E746 /* StarWarsCharacter.swift */,
+				EFBF08502C77A3020021E746 /* Starship.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFBF085E2C77A5B10021E746 /* MockServices */ = {
+			isa = PBXGroup;
+			children = (
+				EFBF085C2C77A5480021E746 /* MockAPIService.swift */,
+			);
+			path = MockServices;
+			sourceTree = "<group>";
+		};
+		EFBF08662C77A6E20021E746 /* StarWarsExplorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFBF08672C77A6E20021E746 /* StarWarsExplorerTests.swift */,
+				EFBF085F2C77A60A0021E746 /* StarWarsViewModelTests.swift */,
+			);
+			path = StarWarsExplorerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +176,24 @@
 			productReference = EFBF083A2C74E2290021E746 /* StarWarsExplorer.app */;
 			productType = "com.apple.product-type.application";
 		};
+		EFBF08642C77A6E20021E746 /* StarWarsExplorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBF086B2C77A6E20021E746 /* Build configuration list for PBXNativeTarget "StarWarsExplorerTests" */;
+			buildPhases = (
+				EFBF08612C77A6E20021E746 /* Sources */,
+				EFBF08622C77A6E20021E746 /* Frameworks */,
+				EFBF08632C77A6E20021E746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFBF086A2C77A6E20021E746 /* PBXTargetDependency */,
+			);
+			name = StarWarsExplorerTests;
+			productName = StarWarsExplorerTests;
+			productReference = EFBF08652C77A6E20021E746 /* StarWarsExplorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -105,6 +206,10 @@
 				TargetAttributes = {
 					EFBF08392C74E2290021E746 = {
 						CreatedOnToolsVersion = 15.4;
+					};
+					EFBF08642C77A6E20021E746 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EFBF08392C74E2290021E746;
 					};
 				};
 			};
@@ -122,6 +227,7 @@
 			projectRoot = "";
 			targets = (
 				EFBF08392C74E2290021E746 /* StarWarsExplorer */,
+				EFBF08642C77A6E20021E746 /* StarWarsExplorerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +242,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFBF08632C77A6E20021E746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -143,14 +256,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFBF085B2C77A4780021E746 /* CharacterDetailView.swift in Sources */,
+				EFBF08532C77A3220021E746 /* StarWarsDetailViewModel.swift in Sources */,
 				EFBF08402C74E2290021E746 /* ContentView.swift in Sources */,
+				EFBF08512C77A3020021E746 /* Starship.swift in Sources */,
 				EFBF084E2C74E2ED0021E746 /* StarWarsViewModel.swift in Sources */,
+				EFBF08582C77A38C0021E746 /* StarshipViewModel.swift in Sources */,
+				EFBF085D2C77A5480021E746 /* MockAPIService.swift in Sources */,
+				EFBF08562C77A36F0021E746 /* StarshipListView.swift in Sources */,
 				EFBF084C2C74E2C00021E746 /* StarWarsCharacter.swift in Sources */,
 				EFBF083E2C74E2290021E746 /* StarWarsExplorerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFBF08612C77A6E20021E746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBF08682C77A6E20021E746 /* StarWarsExplorerTests.swift in Sources */,
+				EFBF086E2C77A6EB0021E746 /* StarWarsViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFBF086A2C77A6E20021E746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFBF08392C74E2290021E746 /* StarWarsExplorer */;
+			targetProxy = EFBF08692C77A6E20021E746 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		EFBF08462C74E22B0021E746 /* Debug */ = {
@@ -330,6 +466,42 @@
 			};
 			name = Release;
 		};
+		EFBF086C2C77A6E20021E746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GTL2PGX2TX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftUi.identifier.StarWarsExplorerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarWarsExplorer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarWarsExplorer";
+			};
+			name = Debug;
+		};
+		EFBF086D2C77A6E20021E746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GTL2PGX2TX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftUi.identifier.StarWarsExplorerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarWarsExplorer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarWarsExplorer";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -347,6 +519,15 @@
 			buildConfigurations = (
 				EFBF08492C74E22B0021E746 /* Debug */,
 				EFBF084A2C74E22B0021E746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBF086B2C77A6E20021E746 /* Build configuration list for PBXNativeTarget "StarWarsExplorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBF086C2C77A6E20021E746 /* Debug */,
+				EFBF086D2C77A6E20021E746 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
